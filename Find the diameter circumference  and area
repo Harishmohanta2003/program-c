@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+float radius,diameter,circumference,area;
+printf("Enter the radius of the circle");
+scanf("%f",radius);
+diameter= 2*radius;
+circumference= 2*3.14*radius;
+area= 3.14*radius*radius;
+printf("The diameteris %f\n The circumference is %f\n The area is %f\n",diameter,circumference,area);
+getch();
+return 0;
+}
